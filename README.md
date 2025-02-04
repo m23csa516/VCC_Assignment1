@@ -76,3 +76,24 @@ This establishes successful inter-VM communication
 If the frontend (VM2) cannot fetch data from the API:
 
 Install Flask-CORS: pip install flask-cors
+
+### 📚 References
+VirtualBox Networking Modes – Oracle Documentation https://www.virtualbox.org/manual/ch06.html
+
+VMware Networking Guide – VMware Docs https://docs.vmware.com/en/VMware-Workstation-Pro/index.html
+
+Ubuntu Network Configuration (for static IP and host-only networks) https://ubuntu.com/server/docs/network-configuration
+
+Flask Official Documentation – Building REST APIs https://flask.palletsprojects.com/en/latest/
+
+Flask & Requests Library – API Communication https://requests.readthedocs.io/en/latest/
+
+Flask Deployment Guide (Production Ready) – Flask Docs https://flask.palletsprojects.com/en/2.0.x/tutorial/deploy/
+
+Flask-CORS GitHub & Docs – How to Enable CORS for Cross-Origin Requests https://flask-cors.readthedocs.io/en/latest/
+
+Understanding CORS (Cross-Origin Resource Sharing) – MDN Web Docs https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+### Recorded Video: https://drive.google.com/file/d/18VBMmDdkE3OicpChSruFxsd56z8eaqC1/view?usp=sharing
+
+
