@@ -60,10 +60,15 @@ pip install flask flask-cors requests
 
 ### 🚀 Execution Workflow
 VM2 (Frontend) sends a request to Host Machine API.
+
 Host Machine forwards the request to VM1.
+
 VM1 (Data Provider) processes and returns the data.
+
 Host Machine relays the response back to VM2.
+
 VM2 displays the data on the web page.
+
 This establishes successful inter-VM communication
 
 
