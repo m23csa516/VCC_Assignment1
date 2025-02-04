@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VM2 Frontend</title>
+    <script>
+        async function fetchData() {
+            console.log("[VM2] Fetch button clicked. Sending request to Host Machine API...");
+            const response = await fetch('http://192.168.29.19:5000/fetch_vm1_data');
+            const data = await response.json();
+            console.log("[VM2] Data received from Host Machine:", data);
+            document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+        }
+    </script>
+</head>
+<body>
+    <h1>Frontend on VM2</h1>
+    <button onclick="fetchData()">Fetch Data from VM1 via Host</button>
+    <pre id="output"></pre>
+</body>
+</html>
